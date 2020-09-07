@@ -16,6 +16,7 @@
   }
 }
 
+ul {list-style-type:square;}
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);

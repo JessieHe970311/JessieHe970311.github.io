@@ -1,15 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "A novel hardware trojan detection with chip ID based on relative time delays"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2017-10-27
+venue: 'IEEE'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/8285766'
+citation: 'Y. Yang, L. Wu, X. Zhang and J. He, "A novel hardware trojan detection with chip ID based on relative time delays," 2017 11th IEEE International Conference on Anti-counterfeiting, Security, and Identification (ASID), Xiamen, 2017, pp. 163-167, doi: 10.1109/ICASID.2017.8285766.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
