@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is Jianben (Jessie) HE, a third-year Ph.D candidate at [VisLab](http://vis.cse.ust.hk/), the Department of Computer Science  and Engineering of Hong Kong University of Science and Technology (HKUST), supervised by [Prof. QU Huamin](http://huamin.org/) and [Prof. ZHANG Qian](https://www.cse.ust.hk/~qianzh/). My research focuses on developing visual analytics approaches, which seamlessly integrated computational algorithms with user-centered visualizations, to effectively support intelligent and insightful multimodal data (e.g., video) understanding and anlaysis.
+This is Jianben (Jessie) HE, a fourth-year Ph.D candidate at [VisLab](http://vis.cse.ust.hk/), the Department of Computer Science  and Engineering of Hong Kong University of Science and Technology (HKUST), supervised by [Prof. QU Huamin](http://huamin.org/) and [Prof. ZHANG Qian](https://www.cse.ust.hk/~qianzh/). My research focuses on developing visual analytics approaches, which seamlessly integrate computational algorithms with user-centered visualizations, to effectively support intelligent and insightful multimodal data (e.g., video) understanding and anlaysis.
 
 Before joining HKUST, I obtained my bachelor degree in Electronics and Information Engineering from Huazhong University of Science and Technology (HUST). I have visited Stanford University and Unidersity of Hong Kong during my undergrduate study. I also worked as research intern at Tsinghua University, where I was advised by [Prof. Zhang Chao](https://netsec.ccert.edu.cn/people/chaoz/) and [Prof. Wu Liji](https://www.sic.tsinghua.edu.cn/info/1015/1246.html).
 
