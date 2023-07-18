@@ -94,6 +94,9 @@
               
 
               <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">CV</a>
+              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -148,9 +151,11 @@
           </div>
 
           <div class="clearfix">
-            <p>This is Jianben (Jessie) HE, a fourth-year Ph.D candidate at <a href="http://vis.cse.ust.hk/" rel="external nofollow noopener" target="_blank">VisLab</a>, the Department of Computer Science  and Engineering of Hong Kong University of Science and Technology (HKUST), supervised by <a href="http://huamin.org/" rel="external nofollow noopener" target="_blank">Prof. QU Huamin</a> and <a href="https://www.cse.ust.hk/~qianzh/" rel="external nofollow noopener" target="_blank">Prof. ZHANG Qian</a>. My research focuses on developing visual analytics approaches, which seamlessly integrate computational algorithms with user-centered visualizations, to effectively support intelligent and insightful multimodal data (e.g., video) understanding and anlaysis.</p>
+            <p>This is Jianben (Jessie) HE, a third-year Ph.D candidate at <a href="http://vis.cse.ust.hk/" rel="external nofollow noopener" target="_blank">VisLab</a>, the Department of Computer Science  and Engineering of Hong Kong University of Science and Technology (HKUST), supervised by <a href="http://huamin.org/" rel="external nofollow noopener" target="_blank">Prof. QU Huamin</a> and <a href="https://www.cse.ust.hk/~qianzh/" rel="external nofollow noopener" target="_blank">Prof. ZHANG Qian</a>. My research interests lie in the intersection of data visualization (VIS), human computer interaction (HCI) and multimodal machine learning. I design and develop AI-powered interactive visual interfaces following human-centered design process to promote human-AI collaboration for multimodal data (e.g., videos) exploration, understanding and analytics.</p>
 
-<p>Before joining HKUST, I obtained my bachelor degree in Electronics and Information Engineering from Huazhong University of Science and Technology (HUST). I have visited Stanford University and Unidersity of Hong Kong during my undergrduate study. I also worked as research intern at Tsinghua University, where I was advised by <a href="https://netsec.ccert.edu.cn/people/chaoz/" rel="external nofollow noopener" target="_blank">Prof. Zhang Chao</a> and <a href="https://www.sic.tsinghua.edu.cn/info/1015/1246.html" rel="external nofollow noopener" target="_blank">Prof. Wu Liji</a>.</p>
+<p>Before joining HKUST, I obtained my Bachelor degree in Electronics and Information Engineering from Huazhong University of Science and Technology (HUST). 
+I have visited Stanford University and the University of Hong Kong during my undergrduate study. 
+I am also fortunate to worked as research intern at Tsinghua University, where I was advised by <a href="https://netsec.ccert.edu.cn/people/chaoz/" rel="external nofollow noopener" target="_blank">Prof. Zhang Chao</a> and <a href="https://www.sic.tsinghua.edu.cn/info/1015/1246.html" rel="external nofollow noopener" target="_blank">Prof. Wu Liji</a>.</p>
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.test
@@ -168,6 +173,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive" style="max-height: 20vw">
               <table class="table table-sm table-borderless">
               
+                <tr>
+                  <th scope="row">Jul 16, 2023</th>
+                  <td>
+                    Our paper about programming video data for data-centric AI is accepted to <b>IEEE VIS 2023 @ Melbourne</b>. More details to come <img class="emoji" title=":clap:" alt=":clap:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44f.png" height="20" width="20">
+
+                  </td>
+                </tr>
                 <tr>
                   <th scope="row">Feb 12, 2023</th>
                   <td>
@@ -233,6 +245,138 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 <!-- _layouts/bib.html -->
 <div class="row">
   <div class="col-sm-2 preview">
+<img id="videopropng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/videopro.png"><div id="videopropng-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('videopropng-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="videopropng-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("videopropng-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('videopropng');
+      var modalImg = document.getElementById("videopropng-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="10045803" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">VideoPro: A Visual Analytics Approach for Interactive Video Programming</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <em>Jianben He</em>, Xingbo Wang, Kam Kwai Wong, Xijie Huang, Changjian Chen, Zixin Chen, Fengjie Wang, Min Zhu, and Huamin Qu</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>IEEE Transactions on Visualization and Computer Graphics (VIS 2023) (to appear)</em>
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a href="TBD" class="btn btn-sm z-depth-0" role="button">URL</a>
+      <a href="/assets/pdf/TBD" class="btn btn-sm z-depth-0" role="button">PDF</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
+<img id="engagerpng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/engager.png"><div id="engagerpng-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('engagerpng-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="engagerpng-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("engagerpng-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('engagerpng');
+      var modalImg = document.getElementById("engagerpng-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="10045802" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Engager: A Visual Analytics System for Multi-person and Multimodal Engagement Analysis in Online Teaching Videos</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <em>Jianben He</em>, Rui Sheng, Xingbo Wang, Kam Kwai Wong, Xinhuan Shu, and Huamin Qu</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>Under review of IEEE TVCG journal</em>
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a href="TBD" class="btn btn-sm z-depth-0" role="button">URL</a>
+      <a href="/assets/pdf/TBD" class="btn btn-sm z-depth-0" role="button">PDF</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
 <img id="anchoragepng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/anchorage.png"><div id="anchoragepng-modal" class="modal2">
       <span class="closeimg" onclick="document.getElementById('anchoragepng-modal').style.display='none'">×</span>
       <div class="myCaption"></div>
@@ -270,20 +414,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <div class="author">
       
 
-      Kam Kwai Wong, Xingbo Wang, Yong Wang, <em>Jianben He</em>, and
-      <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Rong Zhang, Huamin Qu' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
+      Kam Kwai Wong, Xingbo Wang, Yong Wang, <em>Jianben He</em>, Rong Zhang, and Huamin Qu</div>
 
     <!-- Journal/Book title and date -->
     
@@ -349,20 +480,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <div class="author">
       
 
-      Xingbo Wang, <em>Jianben He</em>, Zhihua Jin, Muqiao Yang, and
-      <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Yong Wang, Huamin Qu' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
+      Xingbo Wang, <em>Jianben He</em>, Zhihua Jin, Muqiao Yang, Yong Wang, and Huamin Qu</div>
 
     <!-- Journal/Book title and date -->
     
@@ -462,7 +580,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Selected Awards & Honors -->
           <h2><a style="color: inherit;">Selected Awards &amp; Honors</a></h2>
             <ul>
-              <li>2021 Best Paper Honorable Mention, IEEE VIS 2021</li>
+              <li>2023 Doctoral Colloquium, IEEE VIS</li>
+              <li>2021 Best Paper Honorable Mention, IEEE VIS</li>
               <li>2019 Graudated with Dean's List Honor (Top 1%)</li>
               <li>2019 Outstanding Undergraduate in Terms of Academic Performance (Top 1%)</li>
               <li>2018 China National Scholarship (Top 2%)</li>
@@ -496,7 +615,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Jianben (Jessie)  HE. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: May 23, 2023.
+Last updated: July 18, 2023.
       </div>
     </footer>
 

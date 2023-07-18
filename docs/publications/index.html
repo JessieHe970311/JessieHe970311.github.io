@@ -85,6 +85,9 @@
               
 
               <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">CV</a>
+              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -127,7 +130,74 @@
 
 <div class="publications">
   <h2 class="year">2023</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
+<img id="videopropng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/videopro.png"><div id="videopropng-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('videopropng-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="videopropng-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("videopropng-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('videopropng');
+      var modalImg = document.getElementById("videopropng-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="10045803" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">VideoPro: A Visual Analytics Approach for Interactive Video Programming</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <em>Jianben He</em>, Xingbo Wang, Kam Kwai Wong, Xijie Huang, Changjian Chen, Zixin Chen, Fengjie Wang, Min Zhu, and Huamin Qu</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>IEEE Transactions on Visualization and Computer Graphics (VIS 2023) (to appear)</em>
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a href="TBD" class="btn btn-sm z-depth-0" role="button">URL</a>
+      <a href="/assets/pdf/TBD" class="btn btn-sm z-depth-0" role="button">PDF</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
 <div class="row">
   <div class="col-sm-2 preview">
@@ -168,20 +238,7 @@
     <div class="author">
       
 
-      Kam Kwai Wong, Xingbo Wang, Yong Wang, <em>Jianben He</em>, and
-      <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Rong Zhang, Huamin Qu' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
+      Kam Kwai Wong, Xingbo Wang, Yong Wang, <em>Jianben He</em>, Rong Zhang, and Huamin Qu</div>
 
     <!-- Journal/Book title and date -->
     
@@ -205,7 +262,8 @@
     
   </div>
 </div>
-</li></ol>
+</li>
+</ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography"><li>
@@ -249,20 +307,7 @@
     <div class="author">
       
 
-      Xingbo Wang, <em>Jianben He</em>, Zhihua Jin, Muqiao Yang, and
-      <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Yong Wang, Huamin Qu' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
+      Xingbo Wang, <em>Jianben He</em>, Zhihua Jin, Muqiao Yang, Yong Wang, and Huamin Qu</div>
 
     <!-- Journal/Book title and date -->
     
@@ -371,7 +416,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Jianben (Jessie)  HE. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: May 23, 2023.
+Last updated: July 18, 2023.
       </div>
     </footer>
 
