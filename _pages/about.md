@@ -24,7 +24,7 @@ This is Jianben (Jessie) HE, a third-year Ph.D candidate at [VisLab](http://vis.
 
 Before joining HKUST, I obtained my Bachelor degree in Electronics and Information Engineering from Huazhong University of Science and Technology (HUST). 
 I have visited Stanford University and the University of Hong Kong during my undergrduate study. 
-I am also fortunate to worked as research intern at Tsinghua University, where I was advised by [Prof. Zhang Chao](https://netsec.ccert.edu.cn/people/chaoz/) and [Prof. Wu Liji](https://www.sic.tsinghua.edu.cn/info/1015/1246.html).
+I am a food & fitness enthusiast.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.test
